@@ -1,0 +1,23 @@
+programa
+{
+	inclua biblioteca Matematica
+ --> m
+	
+	funcao inicio()
+	{
+		escreva("Me informe o valor de A")
+		real a
+		leia(a)
+		escreva("Me informe o valor de B")
+		real b
+		leia(b)
+		escreva("Me informe o valor de C")
+		real c
+		leia(c)
+		real delta = m.potencia(b, 2) + (-4*a*c)
+		delta = m.raiz(delta, 2)
+		real x1 = (-b + delta) / (2*a)
+		real x2 = (-b - delta) / (2*a)
+		escreva("A = ", a, "\n", "B = ", b, "\n", "C = ", c, "\n", "Delta = ", delta, "\n", "X1 = ", x1, "\n", "X2 = ", x2)
+	}
+}
