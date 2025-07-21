@@ -13,7 +13,7 @@ programa
 		se(media < 7){
 			escreva("Reprovado.")
 		}
-		se(media > 7 e media < 10){
+		se(media >= 7 e media < 10){
 			escreva("Aprovado, Apenas!")
 		}
 		se(media == 10){
